@@ -1,0 +1,15 @@
+
+
+Git Commands: 
+CD PROJECT DIRECTORY
+$ git init
+$ git add .
+$ git status
+$ git commit -m "intial commit"
+$ git config --globsl user.email "mumairhafeez786@gmail.com"
+$ git config --global user.name "chumairhafeez42"
+$ git commit -m "initial commit"
+$ git origion master
+$ git remote add origin https://github.com/chumairhafeez42/Ems-Projects.git
+$ git push -u origin master
+

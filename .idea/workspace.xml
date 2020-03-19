@@ -41,7 +41,7 @@
       <recent name="E:\Emsgroup\web_driver" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.practice_workplace">
+  <component name="RunManager" selected="Python.ukelectric_supply (1)">
     <configuration name="absolute_tablechair" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Emsgroup" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -154,8 +154,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.practice_workplace" />
         <item itemvalue="Python.ukelectric_supply (1)" />
+        <item itemvalue="Python.practice_workplace" />
         <item itemvalue="Python.strictly_table" />
         <item itemvalue="Python.practice" />
         <item itemvalue="Python.absolute_tablechair" />
@@ -189,7 +189,7 @@
       <workItem from="1583987709047" duration="48803000" />
       <workItem from="1584329342395" duration="25679000" />
       <workItem from="1584366502108" duration="6056000" />
-      <workItem from="1584423392238" duration="51294000" />
+      <workItem from="1584423392238" duration="54315000" />
     </task>
     <servers />
   </component>
@@ -209,22 +209,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584341608631" />
-    <state width="1323" height="251" key="GridCell.Tab.0.bottom" timestamp="1584558696067">
+    <state width="1323" height="251" key="GridCell.Tab.0.bottom" timestamp="1584595613117">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="251" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584558696067" />
-    <state width="1323" height="251" key="GridCell.Tab.0.center" timestamp="1584558696067">
+    <state width="1323" height="251" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584595613117" />
+    <state width="1323" height="251" key="GridCell.Tab.0.center" timestamp="1584595613115">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="251" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584558696067" />
-    <state width="1323" height="251" key="GridCell.Tab.0.left" timestamp="1584558696066">
+    <state width="1323" height="251" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584595613115" />
+    <state width="1323" height="251" key="GridCell.Tab.0.left" timestamp="1584595613114">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="251" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584558696066" />
-    <state width="1323" height="251" key="GridCell.Tab.0.right" timestamp="1584558696067">
+    <state width="1323" height="251" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584595613114" />
+    <state width="1323" height="251" key="GridCell.Tab.0.right" timestamp="1584595613116">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="251" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584558696067" />
+    <state width="1323" height="251" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584595613116" />
     <state width="1323" height="160" key="GridCell.Tab.1.bottom" timestamp="1584523707152">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -255,14 +255,14 @@
     <state x="349" y="26" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1583902014227" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Emsgroup$practice_workplace.coverage" NAME="practice_workplace Coverage Results" MODIFIED="1584558676233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TheWorkPlaceDepot" />
+    <SUITE FILE_PATH="coverage/Emsgroup$practice_workplace.coverage" NAME="practice_workplace Coverage Results" MODIFIED="1584563350177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TheWorkPlaceDepot" />
     <SUITE FILE_PATH="coverage/Emsgroup$ukelectric_supply.coverage" NAME="ukelectric_supply Coverage Results" MODIFIED="1583216699665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/uk_electric" />
     <SUITE FILE_PATH="coverage/Emsgroup$vicking.coverage" NAME="vicking Coverage Results" MODIFIED="1583737794252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Vicking" />
     <SUITE FILE_PATH="coverage/Emsgroup$all_functions__1_.coverage" NAME="all_functions (1) Coverage Results" MODIFIED="1583382890715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cablematic_data" />
     <SUITE FILE_PATH="coverage/Emsgroup$absolute_tablechair.coverage" NAME="absolute_tablechair Coverage Results" MODIFIED="1583842751208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/strictly_table_chair" />
     <SUITE FILE_PATH="coverage/Emsgroup$cablematic.coverage" NAME="cablematic Coverage Results" MODIFIED="1583145478979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cablematic" />
     <SUITE FILE_PATH="coverage/Emsgroup$cablematic__1_.coverage" NAME="cablematic (1) Coverage Results" MODIFIED="1583732228778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cablematic_data" />
-    <SUITE FILE_PATH="coverage/Emsgroup$ukelectric_supply__1_.coverage" NAME="ukelectric_supply (1) Coverage Results" MODIFIED="1584556737125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ukelectric" />
+    <SUITE FILE_PATH="coverage/Emsgroup$ukelectric_supply__1_.coverage" NAME="ukelectric_supply (1) Coverage Results" MODIFIED="1584592297098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ukelectric" />
     <SUITE FILE_PATH="coverage/Emsgroup$practice.coverage" NAME="practice Coverage Results" MODIFIED="1584331022865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Emsgroup$strictly_table.coverage" NAME="strictly_table Coverage Results" MODIFIED="1584472781888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/strictly_table_chair" />
     <SUITE FILE_PATH="coverage/Emsgroup$all_functions.coverage" NAME="all_functions Coverage Results" MODIFIED="1583145273671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cablematic" />

@@ -195,8 +195,6 @@ def product_data():
         first_div = driver.find_element_by_xpath("//*[@id='chooser-1']/ul")
         time.sleep(1)
         first_tag = first_div.find_elements_by_tag_name("a")[1:]
-        driver.implicitly_wait(3)
-        time.sleep(3)
         for atag in first_tag:
             atag.click()
             time.sleep(5)
@@ -208,7 +206,6 @@ def product_data():
                 print(product_price)
             except:
                 traceback.print_exc()
-
     except:
         traceback.print_exc()
 
