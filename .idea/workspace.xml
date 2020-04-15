@@ -15,6 +15,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PATH_TO_GIT" value="C:\Users\dell\Downloads\Git-2.25.1-64-bit.exe" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1YZGRV1zet1za8X5HZDjlUSeXp8" />
@@ -27,7 +28,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web_driver" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -41,8 +42,8 @@
       <recent name="E:\Emsgroup\web_driver" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ukelectric_supply (1)">
-    <configuration name="absolute_tablechair" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.All_functions">
+    <configuration name="All_functions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Emsgroup" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -50,12 +51,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/strictly_table_chair" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/beaumonttom" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/strictly_table_chair/absolute_tablechair.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/beaumonttom/All_functions.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -64,7 +65,51 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="practice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="beaumonto" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Emsgroup" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/beaumonttom" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/beaumonttom/beaumonto.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="centretank" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Emsgroup" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CTS" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CTS/centretank.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="plasticsheet" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Emsgroup" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -77,51 +122,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practice.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="practice_workplace" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Emsgroup" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TheWorkPlaceDepot" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TheWorkPlaceDepot/practice_workplace.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="strictly_table" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Emsgroup" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/strictly_table_chair" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/strictly_table_chair/strictly_table.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plasticsheet.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.All_functions" />
         <item itemvalue="Python.ukelectric_supply (1)" />
-        <item itemvalue="Python.practice_workplace" />
-        <item itemvalue="Python.strictly_table" />
-        <item itemvalue="Python.practice" />
-        <item itemvalue="Python.absolute_tablechair" />
+        <item itemvalue="Python.centretank" />
+        <item itemvalue="Python.beaumonto" />
+        <item itemvalue="Python.plasticsheet" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +190,48 @@
       <workItem from="1583987709047" duration="48803000" />
       <workItem from="1584329342395" duration="25679000" />
       <workItem from="1584366502108" duration="6056000" />
-      <workItem from="1584423392238" duration="54315000" />
+      <workItem from="1584423392238" duration="83018000" />
+      <workItem from="1584969217970" duration="14559000" />
+      <workItem from="1585066929036" duration="1806000" />
+      <workItem from="1585113854228" duration="6464000" />
+      <workItem from="1585150531919" duration="2209000" />
+      <workItem from="1585192190024" duration="2470000" />
+      <workItem from="1585203322924" duration="12295000" />
+      <workItem from="1585291267864" duration="6212000" />
+      <workItem from="1585331500675" duration="3050000" />
+      <workItem from="1585455951313" duration="4758000" />
+      <workItem from="1585553536335" duration="57271000" />
+      <workItem from="1585720722434" duration="13898000" />
+      <workItem from="1585810318058" duration="1224000" />
+      <workItem from="1585812139793" duration="1189000" />
+      <workItem from="1585828433968" duration="1421000" />
+      <workItem from="1585831584448" duration="1350000" />
+      <workItem from="1585895273620" duration="12010000" />
+      <workItem from="1585923715469" duration="5841000" />
+      <workItem from="1585997953617" duration="2557000" />
+      <workItem from="1586010272699" duration="605000" />
+      <workItem from="1586197399058" duration="1242000" />
+      <workItem from="1586238118743" duration="1126000" />
+      <workItem from="1586240565947" duration="4779000" />
+      <workItem from="1586258438709" duration="3113000" />
+      <workItem from="1586283912856" duration="24365000" />
+      <workItem from="1586361983837" duration="1030000" />
+      <workItem from="1586364692180" duration="2195000" />
+      <workItem from="1586367100673" duration="2426000" />
+      <workItem from="1586370143848" duration="12865000" />
+      <workItem from="1586384325590" duration="589000" />
+      <workItem from="1586408541374" duration="626000" />
+      <workItem from="1586410359068" duration="43936000" />
+      <workItem from="1586504539700" duration="21423000" />
+      <workItem from="1586584198129" duration="25000" />
+      <workItem from="1586601471547" duration="5790000" />
+      <workItem from="1586622892837" duration="6244000" />
+      <workItem from="1586673844834" duration="3280000" />
+      <workItem from="1586677580011" duration="14720000" />
+      <workItem from="1586778164451" duration="12025000" />
+      <workItem from="1586847975110" duration="71000" />
+      <workItem from="1586891378567" duration="1230000" />
+      <workItem from="1586932506834" duration="3927000" />
     </task>
     <servers />
   </component>
@@ -197,74 +239,98 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="275" y="25" key="#Notifications" timestamp="1583755959885">
+    <state x="275" y="25" key="#Notifications" timestamp="1584607632132">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="25" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1583755959885" />
+    <state x="275" y="25" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1584607632132" />
     <state x="440" y="174" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583741279543">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="440" y="174" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1583741279543" />
-    <state x="463" y="121" key="FileChooserDialogImpl" timestamp="1584341608631">
+    <state x="463" y="121" key="FileChooserDialogImpl" timestamp="1586791499911">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584341608631" />
-    <state width="1323" height="251" key="GridCell.Tab.0.bottom" timestamp="1584595613117">
+    <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1586791499911" />
+    <state width="1323" height="234" key="GridCell.Tab.0.bottom" timestamp="1586934789235">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="251" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584595613117" />
-    <state width="1323" height="251" key="GridCell.Tab.0.center" timestamp="1584595613115">
+    <state width="1323" height="234" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586934789235" />
+    <state width="1323" height="234" key="GridCell.Tab.0.center" timestamp="1586934789235">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="251" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584595613115" />
-    <state width="1323" height="251" key="GridCell.Tab.0.left" timestamp="1584595613114">
+    <state width="1323" height="234" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586934789235" />
+    <state width="1323" height="234" key="GridCell.Tab.0.left" timestamp="1586934789235">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="251" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584595613114" />
-    <state width="1323" height="251" key="GridCell.Tab.0.right" timestamp="1584595613116">
+    <state width="1323" height="234" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586934789235" />
+    <state width="1323" height="234" key="GridCell.Tab.0.right" timestamp="1586934789235">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="251" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584595613116" />
-    <state width="1323" height="160" key="GridCell.Tab.1.bottom" timestamp="1584523707152">
+    <state width="1323" height="234" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586934789235" />
+    <state width="1323" height="291" key="GridCell.Tab.1.bottom" timestamp="1586369387138">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="160" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584523707152" />
-    <state width="1323" height="160" key="GridCell.Tab.1.center" timestamp="1584523707151">
+    <state width="1323" height="291" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586369387138" />
+    <state width="1323" height="291" key="GridCell.Tab.1.center" timestamp="1586369387138">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="160" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1584523707151" />
-    <state width="1323" height="160" key="GridCell.Tab.1.left" timestamp="1584523707151">
+    <state width="1323" height="291" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1586369387138" />
+    <state width="1323" height="291" key="GridCell.Tab.1.left" timestamp="1586369387138">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="160" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1584523707151" />
-    <state width="1323" height="160" key="GridCell.Tab.1.right" timestamp="1584523707152">
+    <state width="1323" height="291" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1586369387138" />
+    <state width="1323" height="291" key="GridCell.Tab.1.right" timestamp="1586369387138">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="160" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1584523707152" />
-    <state x="186" y="9" key="SettingsEditor" timestamp="1584558910101">
+    <state width="1323" height="291" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1586369387138" />
+    <state x="186" y="9" key="SettingsEditor" timestamp="1584607643993">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="186" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1584558910101" />
-    <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1584423394601">
+    <state x="186" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1584607643993" />
+    <state width="789" height="446" key="SwitcherDM" timestamp="1586351445226">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="391" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1584423394601" />
+    <state width="789" height="446" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1586351445226" />
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1586932505616">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1586932505616" />
     <state x="349" y="26" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1583902014227">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="349" y="26" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1583902014227" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1586525714166">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1586525714166" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Emsgroup$practice_workplace.coverage" NAME="practice_workplace Coverage Results" MODIFIED="1584563350177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TheWorkPlaceDepot" />
+    <SUITE FILE_PATH="coverage/Emsgroup$practice_workplace.coverage" NAME="practice_workplace Coverage Results" MODIFIED="1585151080376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TheWorkPlaceDepot" />
+    <SUITE FILE_PATH="coverage/Emsgroup$centretank.coverage" NAME="centretank Coverage Results" MODIFIED="1586551186222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CTS" />
+    <SUITE FILE_PATH="coverage/Emsgroup$absolute_tablechair.coverage" NAME="absolute_tablechair Coverage Results" MODIFIED="1583842751208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/strictly_table_chair" />
+    <SUITE FILE_PATH="coverage/Emsgroup$beaumonto.coverage" NAME="beaumonto Coverage Results" MODIFIED="1586336417357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/beaumonttom" />
+    <SUITE FILE_PATH="coverage/Emsgroup$cablematic__1_.coverage" NAME="cablematic (1) Coverage Results" MODIFIED="1583732228778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cablematic_data" />
+    <SUITE FILE_PATH="coverage/Emsgroup$ukelectric_supply__1_.coverage" NAME="ukelectric_supply (1) Coverage Results" MODIFIED="1586932540543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ukelectric" />
+    <SUITE FILE_PATH="coverage/Emsgroup$practice.coverage" NAME="practice Coverage Results" MODIFIED="1584331022865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Emsgroup$all_functions.coverage" NAME="all_functions Coverage Results" MODIFIED="1583145273671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cablematic" />
     <SUITE FILE_PATH="coverage/Emsgroup$ukelectric_supply.coverage" NAME="ukelectric_supply Coverage Results" MODIFIED="1583216699665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/uk_electric" />
     <SUITE FILE_PATH="coverage/Emsgroup$vicking.coverage" NAME="vicking Coverage Results" MODIFIED="1583737794252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Vicking" />
     <SUITE FILE_PATH="coverage/Emsgroup$all_functions__1_.coverage" NAME="all_functions (1) Coverage Results" MODIFIED="1583382890715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cablematic_data" />
-    <SUITE FILE_PATH="coverage/Emsgroup$absolute_tablechair.coverage" NAME="absolute_tablechair Coverage Results" MODIFIED="1583842751208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/strictly_table_chair" />
+    <SUITE FILE_PATH="coverage/Emsgroup$All_functions.coverage" NAME="All_functions Coverage Results" MODIFIED="1586934789222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/beaumonttom" />
     <SUITE FILE_PATH="coverage/Emsgroup$cablematic.coverage" NAME="cablematic Coverage Results" MODIFIED="1583145478979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cablematic" />
-    <SUITE FILE_PATH="coverage/Emsgroup$cablematic__1_.coverage" NAME="cablematic (1) Coverage Results" MODIFIED="1583732228778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cablematic_data" />
-    <SUITE FILE_PATH="coverage/Emsgroup$ukelectric_supply__1_.coverage" NAME="ukelectric_supply (1) Coverage Results" MODIFIED="1584592297098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ukelectric" />
-    <SUITE FILE_PATH="coverage/Emsgroup$practice.coverage" NAME="practice Coverage Results" MODIFIED="1584331022865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Emsgroup$plasticsheet.coverage" NAME="plasticsheet Coverage Results" MODIFIED="1585220743321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Emsgroup$strictly_table.coverage" NAME="strictly_table Coverage Results" MODIFIED="1584472781888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/strictly_table_chair" />
-    <SUITE FILE_PATH="coverage/Emsgroup$all_functions.coverage" NAME="all_functions Coverage Results" MODIFIED="1583145273671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cablematic" />
+    <SUITE FILE_PATH="coverage/Emsgroup$workplacedepot.coverage" NAME="workplacedepot Coverage Results" MODIFIED="1584605660389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TheWorkPlaceDepot" />
   </component>
 </project>

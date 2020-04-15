@@ -1,0 +1,179 @@
+1585586227600	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "--disable-notifications" "--disable-dev-shm-usage" "--disable-web-security" "--shm-size=2g" "--no-sandbox" "-foreground" "-no-remote" "-profile" "C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofileiF3jCk"
+*** You are running in headless mode.
+1585586228174	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1585586228973	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1585586228973	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1585586228976	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1585586228976	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1585586232336	Marionette	INFO	Listening on port 64436
+1585586232818	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://2g09.com/js/ct2.js, line 34: TypeError: w[e] is undefined
+JavaScript error: https://2g09.com/js/ct2.js, line 34: TypeError: w[e] is undefined
+JavaScript error: https://beaumonttm.co.uk/spirit-measures/ line 459 > scriptElement, line 1: ReferenceError: Tawk_API is not defined
+JavaScript error: https://2g09.com/js/ct2.js, line 34: TypeError: w[e] is undefined
+JavaScript error: https://2g09.com/js/ct2.js, line 34: TypeError: w[e] is undefined
+JavaScript error: https://2g09.com/js/ct2.js, line 34: TypeError: w[e] is undefined
+JavaScript error: https://2g09.com/js/ct2.js, line 34: TypeError: w[e] is undefined
+JavaScript error: https://2g09.com/js/ct2.js, line 34: TypeError: w[e] is undefined
+JavaScript error: https://2g09.com/js/ct2.js, line 34: TypeError: w[e] is undefined
+JavaScript error: https://2g09.com/js/ct2.js, line 34: TypeError: w[e] is undefined
+JavaScript error: https://2g09.com/js/ct2.js, line 34: TypeError: w[e] is undefined
+JavaScript error: https://beaumonttm.co.uk/copper-range/ line 459 > scriptElement, line 1: ReferenceError: Tawk_API is not defined
+JavaScript error: https://2g09.com/js/ct2.js, line 34: TypeError: w[e] is undefined
+JavaScript error: https://2g09.com/js/ct2.js, line 34: TypeError: w[e] is undefined
+1585587529783	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "--disable-notifications" "--disable-dev-shm-usage" "--disable-web-security" "--shm-size=2g" "--no-sandbox" "-foreground" "-no-remote" "-profile" "C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofilec1ZwAD"
+*** You are running in headless mode.
+1585587530299	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1585587531080	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1585587531080	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1585587531081	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1585587531081	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1585587534048	Marionette	INFO	Listening on port 64747
+1585587534501	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 18128, MediaDecoderStateMachine #1] WARNING: Decoder=1ac8e584c00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file z:/task_1583751780/build/src/dom/media/MediaDecoderStateMachine.cpp, line 359
+[Child 18128, MediaDecoderStateMachine #1] WARNING: Decoder=1ac8e584c00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file z:/task_1583751780/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3358
+1585587803998	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "--disable-notifications" "--disable-dev-shm-usage" "--disable-web-security" "--shm-size=2g" "--no-sandbox" "-foreground" "-no-remote" "-profile" "C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofileXpLkRM"
+*** You are running in headless mode.
+1585587805451	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1585587806615	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1585587806615	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1585587806615	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1585587806615	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1585587811618	Marionette	INFO	Listening on port 64889
+1585587812112	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://beaumonttm.co.uk/product/ceramic-molokai-tiki-mug/ line 459 > scriptElement, line 1: ReferenceError: Tawk_API is not definedJavaScript error: https://2g09.com/js/ct2.js, line 34: TypeError: w[e] is undefined
+JavaScript error: https://beaumonttm.co.uk/product/ceramic-easter-islander-tiki-mug/ line 459 > scriptElement, line 1: ReferenceError: Tawk_API is not defined
+vaScript warning: https://static.sketchfab.com/static/builds/web/dist/viewer-66e5249180b31f0691827bf44c66b968.js, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.sketchfab.com/static/builds/web/dist/viewer-66e5249180b31f0691827bf44c66b968.js, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.sketchfab.com/static/builds/web/dist/viewer-66e5249180b31f0691827bf44c66b968.js, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.sketchfab.com/static/builds/web/dist/viewer-66e5249180b31f0691827bf44c66b968.js, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://2g09.com/js/ct2.js, line 34: TypeError: w[e] is undefined
+JavaScript error: https://beaumonttm.co.uk/product/ceramic-kane-tiki-mug/ line 459 > scriptElement, line 1: ReferenceError: Tawk_API is not defined
+JavaScript warning: https://static.sketchfab.com/static/builds/web/dist/viewer-66e5249180b31f0691827bf44c66b968.js, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.sketchfab.com/static/builds/web/dist/viewer-66e5249180b31f0691827bf44c66b968.js, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.sketchfab.com/static/builds/web/dist/viewer-66e5249180b31f0691827bf44c66b968.js, line 1: Error: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static.sketchfab.com/static/builds/web/dist/viewer-66e5249180b31f0691827bf44c66b968.js, line 1: Error: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1585588483765	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "--disable-notifications" "--disable-dev-shm-usage" "--disable-web-security" "--shm-size=2g" "--no-sandbox" "-foreground" "-no-remote" "-profile" "C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofilewJ5juV"
+*** You are running in headless mode.
+1585588484227	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1585588484889	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1585588484889	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1585588484889	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1585588484889	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1585588487247	Marionette	INFO	Listening on port 65358
+1585588487390	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://beaumonttm.co.uk/spirit-measures/ line 459 > scriptElement, line 1: ReferenceError: Tawk_API is not defined
+1585589140715	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "--disable-notifications" "--disable-dev-shm-usage" "--disable-web-security" "--shm-size=2g" "--no-sandbox" "-foreground" "-no-remote" "-profile" "C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofileGHglNK"
+*** You are running in headless mode.
+1585589141223	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1585589141916	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1585589141917	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1585589141917	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1585589141917	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1585589144651	Marionette	INFO	Listening on port 49450
+1585589144834	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 20416, MediaDecoderStateMachine #1] WARNING: Decoder=15eb0572000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file z:/task_1583751780/build/src/dom/media/MediaDecoderStateMachine.cpp, line 359
+[Child 20416, MediaDecoderStateMachine #1] WARNING: Decoder=15eb0572000 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file z:/task_1583751780/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3358
+Exiting due to channel error.
+	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "--disable-notifications" "--disable-dev-shm-usage" "--disable-web-security" "--shm-size=2g" "--no-sandbox" "-foreground" "-no-remote" "-profile" "C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofile0Qj55P"
+*** You are running in headless mode.
+1585589604319	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1585589605054	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1585589605054	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1585589605054	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1585589605054	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1585589608785	Marionette	INFO	Listening on port 49656
+1585589609024	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 20716, MediaDecoderStateMachine #1] WARNING: Decoder=1cad24e4800 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file z:/task_1583751780/build/src/dom/media/MediaDecoderStateMachine.cpp, line 359
+[Child 20716, MediaDecoderStateMachine #1] WARNING: Decoder=1cad24e4800 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file z:/task_1583751780/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3358
+1585590903401	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "--disable-notifications" "--disable-dev-shm-usage" "--disable-web-security" "--shm-size=2g" "--no-sandbox" "-foreground" "-no-remote" "-profile" "C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofileeBjtxR"
+*** You are running in headless mode.
+1585590903894	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1585590904620	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1585590904620	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1585590904620	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1585590904620	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1585590907312	Marionette	INFO	Listening on port 50214
+1585590907517	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://beaumonttm.co.uk/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1, line 2: ReferenceError: jQuery is not defined
+JavaScript error: https://beaumonttm.co.uk/ line 459 > scriptElement, line 1: ReferenceError: Tawk_API is not defined
+Exiting due to channel error.
+ions" "--disable-dev-shm-usage" "--disable-web-security" "--shm-size=2g" "--no-sandbox" "-foreground" "-no-remote" "-profile" "C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofileGTZxmG"
+*** You are running in headless mode.
+1585591293720	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1585591294380	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1585591294380	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1585591294380	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1585591294380	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1585591296823	Marionette	INFO	Listening on port 50368
+1585591296875	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: services.settings: 
+  Message: TypeError: NetworkError when attempting to fetch resource.
+Exiting due to channel error.
+	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "--disable-notifications" "--disable-dev-shm-usage" "--disable-web-security" "--shm-size=2g" "--no-sandbox" "-foreground" "-no-remote" "-profile" "C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofileIQxaQn"
+*** You are running in headless mode.
+1585592386464	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1585592387088	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1585592387088	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1585592387089	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1585592387089	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1585592389574	Marionette	INFO	Listening on port 50917
+1585592389595	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://beaumonttm.co.uk/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1, line 2: ReferenceError: jQuery is not defined
+JavaScript error: https://beaumonttm.co.uk/wp-content/themes/beaumont-divi-child/js/unicorn-preview.js?ver=5.3.2, line 71: ReferenceError: jQuery is not defined
+JavaScript error: https://beaumonttm.co.uk/wp-content/plugins/duracelltomi-google-tag-manager/js/gtm4wp-form-move-tracker.js?ver=1.11.4, line 1: ReferenceError: jQuery is not defined
+JavaScript error: https://beaumonttm.co.uk/wp-content/themes/Divi/core/admin/js/recaptcha.js?ver=5.3.2, line 66: ReferenceError: jQuery is not defined
+JavaScript error: https://beaumonttm.co.uk/ line 459 > scriptElement, line 1: ReferenceError: Tawk_API is not defined
+JavaScript error: https://beaumonttm.co.uk/, line 1536: ReferenceError: jQuery is not defined
+JavaScript error: https://beaumonttm.co.uk/, line 1549: ReferenceError: jQuery is not defined
+JavaScript error: https://beaumonttm.co.uk/, line 1584: ReferenceError: jQuery is not defined
+JavaScript error: https://beaumonttm.co.uk/, line 1595: ReferenceError: jQuery is not defined
+JavaScript error: https://beaumonttm.co.uk/, line 1621: ReferenceError: jQuery is not defined
+JavaScript error: https://beaumonttm.co.uk/, line 1650: ReferenceError: jQuery is not defined
+JavaScript error: https://beaumonttm.co.uk/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.70, line 14: ReferenceError: jQuery is not defined
+JavaScript error: https://beaumonttm.co.uk/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=4.0.1, line 1: ReferenceError: jQuery is not defined
+JavaScript error: https://beaumonttm.co.uk/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=4.0.1, line 1: ReferenceError: jQuery is not defined
+JavaScript error: https://beaumonttm.co.uk/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=4.0.1, line 1: ReferenceError: jQuery is not defined
+JavaScript error: https://beaumonttm.co.uk/wp-content/plugins/wpcf7-redirect/js/wpcf7-redirect-script.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: https://beaumonttm.co.uk/wp-content/plugins/advanced-woo-search/assets/js/common.js?ver=1.97, line 584: ReferenceError: jQuery is not defined
+JavaScript error: https://beaumonttm.co.uk/wp-content/plugins/monarch/js/idle-timer.min.js?ver=1.4.12, line 2: ReferenceError: jQuery is not defined
+JavaScript error: https://beaumonttm.co.uk/wp-content/plugins/monarch/js/custom.js?ver=1.4.12, line 762: ReferenceError: jQuery is not defined
+JavaScript error: https://beaumonttm.co.uk/wp-content/themes/beaumont-divi-child/js/jquery.matchHeight.js?ver=5.3.2, line 17: ReferenceError: jQuery is not defined
+JavaScript erJavaScript error: https://beaumonttm.co.uk/ line 459 > scriptElement, line 1: ReferenceError: Tawk_API is not defined
+y is not defined
+console.error: services.settings: 
+  Message: TypeError: NetworkError when attempting to fetch resource.
+console.warn: services.settings: main/cfr sync already running
+JavaScript error: https://beaumonttm.co.uk/wp-content/themes/Divi/js/custom.unified.js?ver=4.4.1, line 11: ReferenceError: jQuery is not defined
+console.error: services.settings: 
+  Message: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://beaumonttm.co.uk/wp-content/plugins/divi-breadcrumbs-module/scripts/frontend-bundle.min.js?ver=2.0.0, line 1: ReferenceError: jQuery is not defined
+JavaScript error: https://beaumonttm.co.uk/wp-content/themes/Divi/core/admin/js/common.js?ver=4.4.1, line 50: ReferenceError: jQuery is not defined
+JavaScript error: https://beaumonttm.co.uk/wp-includes/js/mediaelement/mediaelement-migrate.min.js?ver=5.3.2, line 1: ReferenceError: jQuery is not defined
+JavaScript error: https://beaumonttm.co.uk/wp-content/plugins/instagram-feed/js/sb-instagram-2-2.min.js?ver=2.3, line 1: ReferenceError: jQuery is not defined
+1585593383069	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "--disable-notifications" "--disable-dev-shm-usage" "--disable-web-security" "--shm-size=2g" "--no-sandbox" "-foreground" "-no-remote" "-profile" "C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofileZFif1V"
+*** You are running in headless mode.
+1585593383708	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1585593384581	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1585593384581	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1585593384582	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1585593384582	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1585593388434	Marionette	INFO	Listening on port 51276
+1585593388574	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://beaumonttm.co.uk/product/ceramic-molokai-tiki-mug/ line 459 > scriptElement, line 1: ReferenceError: Tawk_API is not defined
+ed

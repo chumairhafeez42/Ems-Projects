@@ -1,0 +1,5 @@
+[0408/224113.817:ERROR:process_info.cc(359)] UncheckedAllocate
+[0408/224254.259:ERROR:process_info.cc(359)] UncheckedAllocate
+[0408/230134.806:ERROR:process_info.cc(359)] UncheckedAllocate
+[0408/231305.221:ERROR:process_info.cc(359)] UncheckedAllocate
+[0408/231621.994:ERROR:filesystem_win.cc(148)] DeleteFile C:\Users\dell\AppData\Local\Temp\scoped_dir14380_236773664\Crashpad\reports\37eb029c-e30c-4b4c-9b3f-ffea2145f3e8.dmp: The process cannot access the file because it is being used by another process. (0x20)

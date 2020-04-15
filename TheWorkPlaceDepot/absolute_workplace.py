@@ -76,7 +76,7 @@ def cat_data_insertion(val):
             host="localhost",
             user="root",
             passwd="",
-            database="workplacedepot"
+            database="theworkplacedepot"
         )
         mycursor = mydb.cursor()
 
@@ -158,7 +158,7 @@ def db_insertion(sql , val):
             host="localhost",
             user="root",
             passwd="",
-            database="workplacedepot"
+            database="theworkplacedepot"
         )
         mycursor = mydb.cursor()
 
@@ -178,7 +178,7 @@ def cable_catinsertion(sql , val):
             host="localhost",
             user="root",
             passwd="",
-            database="workplacedepot"
+            database="theworkplacedepot"
         )
         mycursor = mydb.cursor()
         mycursor.execute(sql, val)

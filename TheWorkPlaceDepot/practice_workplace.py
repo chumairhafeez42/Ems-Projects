@@ -86,13 +86,12 @@ def product_data():
     driver.get("https://www.theworkplacedepot.co.uk/outdoor-twin-belt-barrier-yellow-post")
     # driver.get("https://www.theworkplacedepot.co.uk/expanding-belt-barrier")
     WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, "title")))
-
     # try:
     #     product_title_ = driver.find_element_by_id("title")
     #     product_title = product_title_.text
     #     print(product_title)
     # except:
-    #     traceback.print_exc()
+    #     traceback.print_exc()k
     #
     # try:
     #     price_div = driver.find_element_by_css_selector(".price-ex-vat")
@@ -190,14 +189,17 @@ def product_data():
 
 
     try:
+        driver.get("https://www.theworkplacedepot.co.uk/outdoor-twin-belt-barrier-yellow-post")
         driver.find_element_by_id("chooser-1").click()
+        time.sleep(1)
+        infinite_scrolling_PageDown(driver, 1)
         WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, "//*[@id='chooser-1']/ul")))
         first_div = driver.find_element_by_xpath("//*[@id='chooser-1']/ul")
-        time.sleep(1)
-        first_tag = first_div.find_elements_by_tag_name("a")[1:]
+        driver.implicitly_wait(3)
+        first_tag = first_div.find_elements_by_tag_name("a")[2:]
         for atag in first_tag:
             atag.click()
-            time.sleep(5)
+            time.sleep(1)
             print(atag.text)
             print("clicked")
             try:

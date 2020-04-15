@@ -11,10 +11,10 @@ def fetching_main_cats():
     parent_url = 'https://www.ukelectricalsupplies.com/'
     try:
         driver.get(parent_url)
-        time.sleep(1)
+        time.sleep(2)
         page_soup = BeautifulSoup(driver.page_source, 'html.parser')
         main_cate_ul = page_soup.find('ul',{'class': 'menuTemplate3 decor3_1'})
-        main_cate_links = main_cate_ul.find_all('div',{'id': 'nav_item'})[:-1]
+        main_cate_links = main_cate_ul.find_all('div',{'class': 'nav_item'})[:-1]
         p_id = 0
         cat_id = 0
         for cate_urls in main_cate_links:
@@ -149,7 +149,6 @@ def fetching_main_cats():
                                         for x in myresult:
                                             category_id = x[0]
                                             categorylist.append(category_id)
-                                        print(categorylist)
                                     except Exception as e:
                                         print(e)
                                         pass
