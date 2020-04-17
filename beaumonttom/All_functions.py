@@ -45,8 +45,6 @@ def runChromeOverServer():
                     driver = webdriver.Chrome(executable_path='E:\Emsgroup\web_driver\chromedriver.exe',
                         chrome_options=options)
                 break
-            driver.get("http://us3.proxysite.one/index.php?q=oNioo6mgZ2XdqNlmz8OVYKHTX5ygppU")
-            time.sleep(5)
             return driver,display
 
         except Exception as e:
@@ -190,5 +188,3 @@ def cable_catinsertion(sql , val):
     except Exception as e:
         print(e)
 
-if __name__ == '__main__':
-    runChromeOverServer()

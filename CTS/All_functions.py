@@ -120,7 +120,7 @@ def runfirfoxOverServer():
             # display.start()
             # display = ''
             options = webdriver.FirefoxOptions()
-            options.headless = False
+            options.headless = True
             # options.add_argument('--proxy-server=%s' % proxy)
             options.add_argument('--disable-notifications')
             options.add_argument('--disable-dev-shm-usage')

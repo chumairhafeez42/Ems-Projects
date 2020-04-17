@@ -32,7 +32,7 @@ warnings.filterwarnings("ignore")
 
 
 def fetching_categories():
-    driver , display  = runChromeOverServer()
+    driver = runfirfoxOverServer()
     try:
         driver.execute_script("window.open('about:blank','tab')")
         driver.switch_to.window("tab")
@@ -48,13 +48,13 @@ def fetching_categories():
             main_cat_image = iteration.find_element_by_css_selector(".product-category-grid-image").find_element_by_tag_name("a").find_element_by_tag_name("img").get_attribute("src")
             cat_img_download_func(main_cat_image, main_cat_name)
             print(p_id , main_cat_name , main_cat_links , main_cat_image)
-            try:
-                val = (main_cat_name, main_cat_name, main_cat_name, main_cat_name.lower().replace('-', '').replace('/', '').replace(' ','').replace('&','').strip()+".jpg", "Yes", "Yes", "Yes", p_id,
-                    main_cat_name.replace('-', '').replace('/', '').replace(' ','').strip(), "Yes")
-                cat_data_insertion(val)
-            except Exception as e:
-                print('Database query errror')
-                print(e)
+            # try:
+            #     val = (main_cat_name, main_cat_name, main_cat_name, main_cat_name.lower().replace('-', '').replace('/', '').replace(' ','').replace('&','').strip()+".jpg", "Yes", "Yes", "Yes", p_id,
+            #         main_cat_name.replace('-', '').replace('/', '').replace(' ','').strip(), "Yes")
+            #     cat_data_insertion(val)
+            # except Exception as e:
+            #     print('Database query errror')
+            #     print(e)
 
             driver.execute_script("window.open('about:blank','tab1')")
             driver.switch_to.window("tab1")
@@ -72,14 +72,14 @@ def fetching_categories():
                         sub_cat_name = atag.find_element_by_tag_name("span").text
                         sub_cat_img_download_func(sub_tag_img, sub_cat_name)
                         print("1st loops:", p1_id , sub_cat_name , sub_cat_links , sub_tag_img)
-                        try:
-                            val = (sub_cat_name, sub_cat_name, sub_cat_name,sub_cat_name.lower().replace('-', '').replace('/', '').replace(' ','').replace('&','').strip() + ".jpg",
-                                   "Yes", "Yes", "Yes", p1_id, sub_cat_name.replace('-', '').replace('/', '').replace(' ', '').strip(), "Yes")
-                            cat_data_insertion(val)
-                        except Exception as e:
-                            print('Database query errror')
-                            print(e)
-                        ##### extract_categories(driver , sub_cat_links , data_ , cat_id)
+                        # try:
+                        #     val = (sub_cat_name, sub_cat_name, sub_cat_name,sub_cat_name.lower().replace('-', '').replace('/', '').replace(' ','').replace('&','').strip() + ".jpg",
+                        #            "Yes", "Yes", "Yes", p1_id, sub_cat_name.replace('-', '').replace('/', '').replace(' ', '').strip(), "Yes")
+                        #     cat_data_insertion(val)
+                        # except Exception as e:
+                        #     print('Database query errror')
+                        #     print(e)
+                        extract_categories(driver , sub_cat_links , data_ , cat_id)
                         try:
                             driver.execute_script("window.open('about:blank','tab2')")
                             driver.switch_to.window("tab2")
@@ -95,17 +95,17 @@ def fetching_categories():
                                     sub_sub_cat_name = atag.find_element_by_tag_name("span").text
                                     sub_cat_img_download_func(main_cat_image, sub_sub_cat_name)
                                     print("2nd loops:", p2_id, sub_sub_cat_name, sub_sub_cat_links, sub_sub_tag_img)
-                                    try:
-                                        val = (sub_sub_cat_name, sub_sub_cat_name, sub_sub_cat_name,sub_sub_cat_name.lower().replace('-', '').replace('/', '').replace(' ','').replace('&','').strip() + ".jpg",
-                                               "Yes", "Yes", "Yes", p2_id, sub_sub_cat_name.replace('-', '').replace('/', '').replace(' ', '').strip(), "Yes")
-                                        cat_data_insertion(val)
-                                    except Exception as e:
-                                        print('Database query errror')
-                                        print(e)
+                                    # try:
+                                    #     val = (sub_sub_cat_name, sub_sub_cat_name, sub_sub_cat_name,sub_sub_cat_name.lower().replace('-', '').replace('/', '').replace(' ','').replace('&','').strip() + ".jpg",
+                                    #            "Yes", "Yes", "Yes", p2_id, sub_sub_cat_name.replace('-', '').replace('/', '').replace(' ', '').strip(), "Yes")
+                                    #     cat_data_insertion(val)
+                                    # except Exception as e:
+                                    #     print('Database query errror')
+                                    #     print(e)
                                     cat_id = cat_id + 1
                                     final_cat_links = sub_sub_cat_links
                                     final_cat_name = sub_sub_cat_name
-                                    # pagination(driver , final_cat_links , final_cat_name)
+                                    pagination(driver , final_cat_links , final_cat_name)
                                 data_ += 1
                                 driver.switch_to_window("tab1")
                             else:
@@ -113,7 +113,7 @@ def fetching_categories():
                                 cat_id = cat_id + 1
                                 final_cat_links = sub_cat_links
                                 final_cat_name = sub_cat_name
-                                # pagination(driver , final_cat_links , final_cat_name)
+                                pagination(driver , final_cat_links , final_cat_name)
                             data_ += 1
                             driver.switch_to_window("tab1")
                         except:
@@ -124,7 +124,7 @@ def fetching_categories():
                     print("Else1.................")
                     final_cat_links = main_cat_links
                     final_cat_name = main_cat_name
-                    # pagination(driver , final_cat_links , final_cat_name)
+                    pagination(driver , final_cat_links , final_cat_name)
                 data_ += 1
                 driver.switch_to_window("tab")
 
@@ -134,13 +134,43 @@ def fetching_categories():
         pass
     driver.quit()
 
+
+
+def extract_categories(driver , sub_cat_links , data_ , cat_id):
+    try:
+        driver.execute_script("window.open('about:blank','tab2')")
+        driver.switch_to.window("tab2")
+        driver.get(sub_cat_links)
+        time.sleep(2)
+        sub_sub_cat_div = driver.find_elements_by_css_selector(".product-category-shortcut-link")
+        if sub_sub_cat_div:
+            cat_id = cat_id + 1
+            p2_id = cat_id
+            for atag in sub_sub_cat_div:
+                sub_sub_cat_links = atag.get_attribute("href")
+                sub_sub_tag_img = atag.find_element_by_tag_name("img").get_attribute("src")
+                print("2nd loops:", p2_id ,  sub_sub_cat_links, sub_sub_tag_img)
+                cat_id = cat_id + 1
+                final_cat_links = sub_sub_cat_links
+                pagination(driver, final_cat_links)
+            data_ += 1
+            driver.switch_to_window("tab1")
+        else:
+            print("Else2..........................")
+            final_cat_links = sub_cat_links
+            pagination(driver, final_cat_links)
+        data_ += 1
+        driver.switch_to_window("tab1")
+    except:
+        pass
+
 def pagination(driver , final_cat_links , final_cat_name):
     try:
         mydb = mysql.connector.connect(
             host="localhost",
             user="root",
             passwd="",
-            database="beaumonttom"
+            database="centertank"
         )
         mycursor = mydb.cursor()
 
@@ -159,7 +189,7 @@ def pagination(driver , final_cat_links , final_cat_name):
             host="localhost",
             user="root",
             passwd="",
-            database="beaumonttom"
+            database="centertank"
         )
         mycursor = mydb.cursor()
         sql = "SELECT category_id FROM products"
@@ -184,7 +214,7 @@ def pagination(driver , final_cat_links , final_cat_name):
                     ".product-grid-contain").find_elements_by_css_selector(".product-grid-image")
                 for atag in product_url_div:
                     product_links = atag.find_element_by_tag_name("a").get_attribute("href")
-                    product_url_list.append(product_links)
+                    product_url_list.append((category_id ,product_links))
                 try:
                     Page_navigation = driver.find_element_by_css_selector(
                         ".product-pagination").find_elements_by_tag_name("li")[1::]
@@ -199,7 +229,7 @@ def pagination(driver , final_cat_links , final_cat_name):
                                 ".product-grid-contain").find_elements_by_css_selector(".product-grid-image")
                             for atag in product_url_div:
                                 product_links = atag.find_element_by_tag_name("a").get_attribute("href")
-                                product_url_list.append(product_links)
+                                product_url_list.append((category_id ,product_links))
 
                         data_ += 1
                         driver.switch_to_window("tab2")
@@ -209,14 +239,13 @@ def pagination(driver , final_cat_links , final_cat_name):
                 except:
                     pass
                 print(len(product_url_list), product_url_list)
-                # multipooling(product_url_list)
+                multipooling(product_url_list)
                 data_ += 1
                 driver.switch_to_window("tab2")
             except:
                 pass
     except:
         pass
-
 
 def multipooling(product_url_list):
     print(len(product_url_list))
@@ -236,12 +265,12 @@ def multipooling(product_url_list):
     print('Done All Pool')
 
 def Product_data(chunksList):
-    driver, display = runChromeOverServer()
+    driver = runfirfoxOverServer()
     try:
         data_ = 12
         for url in chunksList:
-            pro_url = url
-            # cat_id = url[0]
+            pro_url = url[1]
+            cat_id = url[0]
             try:
                 driver.execute_script("window.open('about:blank','tab" + str(data_) + "')")
                 driver.switch_to.window("tab" + str(data_))
@@ -255,7 +284,7 @@ def Product_data(chunksList):
 
 
                 try:
-                    product_price = driver.find_element_by_css_selector(".price-container").find_element_by_css_selector(".p-price").text.replace("£",'').strip()
+                    product_price = driver.find_element_by_css_selector(".price-container").find_element_by_css_selector(".p-price").text.replace("£",'').replace(',','').strip()
                     print(product_price)
                 except:
                     pass
@@ -269,19 +298,80 @@ def Product_data(chunksList):
 
                 try:
                    product_images = driver.find_element_by_css_selector(".product-images").find_element_by_css_selector(".product-image-main").find_element_by_tag_name("img").get_attribute("src")
+                   prod_img_download_func(product_images , product_title)
                    print(product_images)
                 except:
                     pass
 
                 try:
+                    mydb = mysql.connector.connect(
+                        host="localhost",
+                        user="root",
+                        passwd="",
+                        database="centertank"
+                    )
+                    mycursor = mydb.cursor()
+                    sql = "INSERT INTO products (product_name,product_description,meta_title,meta_description,meta_keywords,status,category_id,feature_image,IsHome,IsFeature,IsSpecial,product_url,pro_price)" \
+                          " VALUES (%s, %s,%s, %s, %s,%s, %s,%s,%s,%s,%s,%s,%s)"
+                    val = (product_title, product_description, product_title,
+                        product_title, product_title, "Yes", cat_id,
+                        str(product_title).lower().replace(',', '').replace('-', '').replace(' ', '').replace('/','').replace('(', '').replace(')', '') + '.jpg',
+                        'Yes', 'Yes', 'Yes', product_title, product_price)
+                    mycursor.execute(sql, val)
+                    mydb.commit()
+                    print(mycursor.rowcount, "product inserted.")
+                    mydb.close()
+                except Exception as e:
+                    print("Product not inserted")
+                    print(e)
+
+                try:
+                    try:
+                        mydb = mysql.connector.connect(
+                            host="localhost",
+                            user="root",
+                            passwd="",
+                            database="centertank"
+                        )
+                        mycursor = mydb.cursor()
+                        sql = "SELECT product_id FROM products WHERE product_name = '%s'" % product_title
+                        mycursor.execute(sql)
+                        myresult = mycursor.fetchall()
+                        for x in myresult:
+                            product_id = x[0]
+                        print('product_id is : ', product_id)
+                        mydb.close()
+                    except:
+                        pass
+                    size_id = 0
                     product_variation_divs = driver.find_element_by_css_selector(".product-table").find_elements_by_tag_name("tr")[1::]
                     for iteration in product_variation_divs:
                         product_code = iteration.find_element_by_css_selector(".p-t-code").text.strip()
                         product_model = iteration.find_element_by_css_selector(".p-t-model").text.strip()
-                        product_price_ = iteration.find_element_by_css_selector(".p-t-price").text.strip()
+                        product_price_ = iteration.find_element_by_css_selector(".p-t-price").text.replace('£','').replace(',','').strip()
                         print(product_code , product_model , product_price_)
+                        try:
+                            mydb = mysql.connector.connect(
+                                host="localhost",
+                                user="root",
+                                passwd="",
+                                database="centertank"
+                            )
+                            mycursor = mydb.cursor()
+
+                            sql = "INSERT INTO products_size(size_id,product_id, price,size)" \
+                                  " VALUES (%s,%s,%s,%s)"
+                            val = (size_id, product_id, product_price, product_model)
+                            mycursor.execute(sql, val)
+                            mydb.commit()
+                            print(mycursor.rowcount, "size_product inserted.")
+                            mydb.close()
+                            size_id +=1
+                        except Exception as e:
+                            print(e)
+                            pass
                 except:
-                    traceback.print_exc()
+                    pass
 
                 try:
                     infinite_scrolling_PageDown(driver , 3)
@@ -291,46 +381,36 @@ def Product_data(chunksList):
                     for iteration in product_variation_divs:
                         product_code = iteration.find_element_by_css_selector(".p-t-code").text.strip()
                         product_model = iteration.find_element_by_css_selector(".p-t-accessory").text.replace("\n"," ").strip()
-                        product_price_ = iteration.find_element_by_css_selector(".p-t-price").text.strip()
+                        product_price_ = iteration.find_element_by_css_selector(".p-t-price").text.replace('£','').replace(',','').strip()
                         print(product_code, product_model, product_price_)
+                        try:
+                            mydb = mysql.connector.connect(
+                                host="localhost",
+                                user="root",
+                                passwd="",
+                                database="centertank"
+                            )
+                            mycursor = mydb.cursor()
+
+                            sql = "INSERT INTO products_size(size_id,product_id, price,size)" \
+                                  " VALUES (%s,%s,%s,%s)"
+                            val = (size_id, product_id, product_price_, product_model)
+                            mycursor.execute(sql, val)
+                            mydb.commit()
+                            print(mycursor.rowcount, "size_product inserted.")
+                            mydb.close()
+                            size_id += 1
+                        except Exception as e:
+                            print(e)
+                            pass
                 except:
-                   traceback.print_exc()
+                   pass
+
             except:
                 pass
-
             data_ += 1
-    except:
-        traceback.print_exc()
-
-def extract_categories(driver , sub_cat_links , data_ , cat_id):
-    try:
-        driver.execute_script("window.open('about:blank','tab2')")
-        driver.switch_to.window("tab2")
-        driver.get(sub_cat_links)
-        time.sleep(2)
-        sub_sub_cat_div = driver.find_elements_by_css_selector(".product-category-shortcut-link")
-        if sub_sub_cat_div:
-            cat_id = cat_id + 1
-            p2_id = cat_id
-            for atag in sub_sub_cat_div:
-                sub_sub_cat_links = atag.get_attribute("href")
-                sub_sub_tag_img = atag.find_element_by_tag_name("img").get_attribute("src")
-                print("2nd loops:", p2_id ,  sub_sub_cat_links, sub_sub_tag_img)
-                cat_id = cat_id + 1
-                final_cat_links = sub_sub_cat_links
-                # pagination(driver, final_cat_links)
-            data_ += 1
-            driver.switch_to_window("tab1")
-        else:
-            print("Else2..........................")
-            final_cat_links = sub_cat_links
-            # pagination(driver, final_cat_links)
-        data_ += 1
-        driver.switch_to_window("tab1")
     except:
         pass
-
-
 
 
 
