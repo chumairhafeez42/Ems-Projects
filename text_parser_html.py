@@ -199,7 +199,7 @@ if __name__ == '__main__':
     else:
         filename = 'enwiki-20220301-pages-meta-history16.xml-p20567244p20570392.bz2'
     output_file_name = "-".join(filename.split("-")).split(".")[0].split("/")[-1]
-    text_file_path = f"{output_file_name}_html"
+    text_file_path = f"/home/amir/Desktop/Unused Data/{output_file_name}_html"
 
     if not os.path.isdir(text_file_path):
         os.mkdir(text_file_path)
@@ -214,6 +214,7 @@ if __name__ == '__main__':
     parser = xml.sax.make_parser()
     parser.setContentHandler(handler)
     # Iteratively process file
+    print(filename)
     for line in subprocess.Popen(['bzcat'],
                                  stdin=open(filename),
                                  stdout=subprocess.PIPE).stdout:
@@ -226,14 +227,19 @@ if __name__ == '__main__':
     books = handler._books
 
     print(f'\nSearched through {handler._article_count} articles.')
-
+    db_list = []
     for article in books:
         title = article[0]
         raw_text = article[1].replace("===", "")
         clean_text_html = cleanhtml(raw_text)
         if "/" in title:
             title = title.replace("/", " ")
-        f = codecs.open(text_file_path + "/" + str(title) + ".html", "w+", "utf-8")
+        if len(title) > 100:
+            title = title.split(" ")[:5]
+            file_name = " ".join(title)
+        else:
+            file_name = title
+        f = codecs.open(text_file_path + "/" + str(file_name) + ".html", "w+", "utf-8")
         text = clean_text(clean_text_html)
         br_text = text.replace("\n", "<br>")
         properties = article[2] if article[2] else ""
@@ -247,12 +253,14 @@ if __name__ == '__main__':
             exlinks = "<br>".join(exlinks)
         else:
             exlinks = ""
-        db.insert({"title": title, "content": text})
+        db_list.append({"title": title, "content": text})
+        # db.insert({"title": title, "content": text})
         image_link = 'image_link alt="Thumbnail" style="height: 300px; width: 300px; object-fit: contain;"'
         output_text = html_template % (title, br_text,
                                        properties, wikilinks,
                                        exlinks, image_link)
         f.write(str(output_text))
         f.close()
+    db.insert_multiple(db_list)
 
     # pool_code(pool_func, books, 10)

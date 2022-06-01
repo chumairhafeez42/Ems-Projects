@@ -94,12 +94,12 @@ def google_selenium_html(queries):
                     f"tbm=isch&hl=en&tbs=il:ol&authuser=0&sa=X&biw=1833&bih=948 "
                 )
                 driver.get(link)
-                time.sleep(random.randint(0, 1))
+                # time.sleep(random.randint(0, 1))
                 div_id = random.randint(1, 4)
                 driver.find_element(
                     by=By.XPATH, value=f'//*[@id="islrg"]/div[1]/div[{div_id}]/a[1]'
                 ).click()
-                time.sleep(random.randint(2, 3))
+                time.sleep(random.randint(3, 4))
                 remove_extra_selenium_tabs(driver)
                 action_chains = ActionChains(driver)
                 try:
@@ -118,7 +118,7 @@ def google_selenium_html(queries):
                         )
                     ).perform()
                 remove_extra_selenium_tabs(driver)
-                time.sleep(random.randint(0, 1))
+                # time.sleep(random.randint(0, 1))
                 pyautogui.typewrite(
                     [
                         "down",
@@ -209,20 +209,24 @@ if __name__ == "__main__":
         if file:
             scraped_list.append(file.strip())
     try:
-        folder_name = "-".join(filename.split("-")).split(".")[0].split("/")[-1]
-        print(folder_name)
-        # folder_path = f"{folder_name}_html"
-        if "html" in folder_name:
-            folder_path = f"{folder_name}"
+        if "/" in filename:
+            complete_folder_path = filename
         else:
-            folder_path = f"{folder_name}_html"
-        parent_path = Path(folder_path).parent.absolute()
-        complete_folder_path = os.path.join(parent_path, folder_path)
+            folder_name = "-".join(filename.split("-")).split(".")[0].split("/")[-1]
+            print(folder_name)
+            if "html" in folder_name:
+                folder_path = f"{folder_name}"
+            else:
+                folder_path = f"{folder_name}_html"
+            parent_path = Path(folder_path).parent.absolute()
+            complete_folder_path = os.path.join(parent_path, folder_path)
+        print(complete_folder_path)
         filenames = next(
-            os.walk(os.path.join(parent_path, folder_path)), (None, None, [])
+            os.walk(complete_folder_path), (None, None, [])
         )[2]
         count = 1
-        filenames = filenames[10500:10600]
+        print(len(filenames))
+        filenames = filenames[2857:2900]
         logging.info(len(filenames))
         pool_code(google_selenium_html, filenames, 1)
         # pool_code(html_to_pdf, filenames, 2)
@@ -230,3 +234,7 @@ if __name__ == "__main__":
         scraped_write.close()
     except:
         logging.error(str(traceback.print_exc()))
+
+
+
+
