@@ -16,10 +16,10 @@ def html_to_pdf(files):
     }
     for html_file in files:
         global count
+        count += 1
         print(count, html_file)
         target_folder_html_path = f"{destination_folder}/{html_file}"
         target_folder_pdf_path = f"{destination_folder}/{html_file.replace('.html','.pdf')}"
-        count += 1
         if ".pdf" in html_file:
             continue
         try:
@@ -86,18 +86,22 @@ def remove_image_tag_html(files):
 
 
 if __name__ == '__main__':
-    destination_folder = "/home/amir/Desktop/Only PDFs/enwiki-20220301-pages-articles-multistream11_html"
-    parent_path = '/home/amir/Desktop/Unused Data/enwiki-20220301-pages-articles-multistream11_html'
-    # destination_folder = "/home/amir/Desktop/Only PDFs/enwiki-20220301-pages-articles-multistream11_html"
-    # parent_path = '/home/amir/Desktop/Unused Data/enwiki-20220301-pages-articles-multistream11_html'
-    print(datetime.datetime.utcnow())
-    count = 1
-    filenames = next(
-        os.walk(parent_path), (None, None, [])
-    )[2]
-    # filenames = filenames[:1000]
-    filenames = filenames[250000:260000]
-    pool_code(html_to_pdf, filenames, 15)
-    # remove_files(filenames)
-    # html_to_pdf(["MDI.html"])
-    print(datetime.datetime.utcnow())
+    # Run this once current script finishes
+    folders_list = [("/home/amir/Desktop/Only PDFs/enwiki-20220301-pages-articles-multistream20-2_html",
+                     "/home/amir/Desktop/Unused Data/enwiki-20220301-pages-articles-multistream20_html"),
+                    ]
+    for folder in folders_list:
+        # destination_folder = "/home/amir/Desktop/Only PDFs/enwiki-20220301-pages-articles-multistream14_html"
+        # parent_path = '/home/amir/Desktop/Unused Data/enwiki-20220301-pages-articles-multistream14_html'
+        destination_folder = folder[0]
+        parent_path = folder[1]
+        print(datetime.datetime.utcnow())
+        count = 1
+        filenames = next(
+            os.walk(parent_path), (None, None, [])
+        )[2]
+        filenames = filenames[:100000]
+        pool_code(html_to_pdf, filenames, 20)
+        # remove_files(filenames)
+        # html_to_pdf(["MDI.html"])
+        print(datetime.datetime.utcnow())

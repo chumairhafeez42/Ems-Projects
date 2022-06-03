@@ -1,4 +1,5 @@
 import codecs
+import datetime
 import os
 import subprocess
 import traceback
@@ -31,14 +32,6 @@ html_template = """<!DOCTYPE html>
     padding:5px;
 
 }
-
-.right-element {
-    width: 50px;
-    height: 50px;
-    margin-left: 50px;
-    position: absolute;
-    right: 0;
-}
 </style>
 
 <div class="container">
@@ -51,9 +44,6 @@ html_template = """<!DOCTYPE html>
         <p> %s</p>
         <h3> External Links </h3>
         <p>%s</p>
-    </div>
-    <div class="right-element">
-       <img src=%s/>
     </div>
 </div>
 
@@ -193,6 +183,7 @@ def pool_func(books):
 
 
 if __name__ == '__main__':
+    print(datetime.datetime.utcnow())
     ZIP_FILE_PATH = os.getenv('ZIP_FILE_PATH')
     if ZIP_FILE_PATH:
         filename = ZIP_FILE_PATH
@@ -255,12 +246,12 @@ if __name__ == '__main__':
             exlinks = ""
         db_list.append({"title": title, "content": text})
         # db.insert({"title": title, "content": text})
-        image_link = 'image_link alt="Thumbnail" style="height: 300px; width: 300px; object-fit: contain;"'
+        # image_link = 'image_link alt="Thumbnail" style="height: 300px; width: 300px; object-fit: contain;"'
         output_text = html_template % (title, br_text,
                                        properties, wikilinks,
-                                       exlinks, image_link)
+                                       exlinks)
         f.write(str(output_text))
         f.close()
     db.insert_multiple(db_list)
-
+    print(datetime.datetime.utcnow())
     # pool_code(pool_func, books, 10)
