@@ -188,16 +188,16 @@ if __name__ == '__main__':
     if ZIP_FILE_PATH:
         filename = ZIP_FILE_PATH
     else:
-        filename = 'enwiki-20220301-pages-meta-history16.xml-p20567244p20570392.bz2'
+        filename = 'enwiki-20220601-pages-articles-multistream15.xml-p17324603p17460152.bz2'
     output_file_name = "-".join(filename.split("-")).split(".")[0].split("/")[-1]
-    text_file_path = f"/home/amir/Desktop/Unused Data/{output_file_name}_html"
+    text_file_path = f"/home/umair/FinDe/Script_Data/{output_file_name}_html"
 
     if not os.path.isdir(text_file_path):
         os.mkdir(text_file_path)
 
     if not os.path.isdir("db"):
         os.mkdir("db")
-    db = TinyDB(f"db/{output_file_name}.json")
+    # db = TinyDB(f"db/{output_file_name}.json")
 
     # Object for handling xml
     handler = WikiXmlHandler()
@@ -252,6 +252,6 @@ if __name__ == '__main__':
                                        exlinks)
         f.write(str(output_text))
         f.close()
-    db.insert_multiple(db_list)
+    # db.insert_multiple(db_list)
     print(datetime.datetime.utcnow())
     # pool_code(pool_func, books, 10)

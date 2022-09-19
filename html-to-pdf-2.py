@@ -19,7 +19,7 @@ def html_to_pdf(files):
         count += 1
         print(count, html_file)
         target_folder_html_path = f"{destination_folder}/{html_file}"
-        target_folder_pdf_path = f"{destination_folder}/{html_file.replace('.html','.pdf')}"
+        target_folder_pdf_path = f"{destination_folder}/{html_file.replace('.html', '.pdf')}"
         if ".pdf" in html_file:
             continue
         try:
@@ -62,7 +62,7 @@ def remove_files(files):
 def pool_code(func, sub_link, pool_number):
     chunks_list = []
     for i in range(0, len(sub_link), 5):
-        chunk = sub_link[i : i + 5]
+        chunk = sub_link[i: i + 5]
         chunks_list.append(chunk)
     pool_size = pool_number
     pool = ThreadPool(pool_size)
@@ -79,7 +79,7 @@ def remove_image_tag_html(files):
             regex = r"(?<=<div class=\"right-element\")((.|\n)*)(?=</div>)"
             subst = ""
             result = re.sub(regex, subst, text, 1)
-            text = result.replace('<div class="right-element"','')
+            text = result.replace('<div class="right-element"', '')
             f = open(f"{destination_folder}/{file}", "w")
             f.write(text)
             f.close()
@@ -87,11 +87,13 @@ def remove_image_tag_html(files):
 
 if __name__ == '__main__':
     # Run this once current script finishes
-    folders_list = [("/home/amir/Desktop/Only PDFs/enwiki-20220301-pages-articles-multistream20-2_html",
-                     "/home/amir/Desktop/Unused Data/enwiki-20220301-pages-articles-multistream20_html"),
-                    ]
+    folders_list = [
+        ("/home/amir/Desktop/Complete Scraped Data 18-05-2022/enwiki-20220301-pages-meta-current2-pdf",
+         "/home/amir/Desktop/Complete Scraped Data 18-05-2022/enwiki-20220301-pages-meta-current2_html"),
+
+    ]
     for folder in folders_list:
-        # destination_folder = "/home/amir/Desktop/Only PDFs/enwiki-20220301-pages-articles-multistream14_html"
+        # destination_folder = "/home/amir/Desktop/Only PDFs/enwiki-20220301-pages-articles-multistream14_html"/home/amir/Desktop/Unused Data/enwiki-20220301-pages-articles-multistream21_html
         # parent_path = '/home/amir/Desktop/Unused Data/enwiki-20220301-pages-articles-multistream14_html'
         destination_folder = folder[0]
         parent_path = folder[1]
@@ -100,8 +102,8 @@ if __name__ == '__main__':
         filenames = next(
             os.walk(parent_path), (None, None, [])
         )[2]
-        filenames = filenames[:100000]
-        pool_code(html_to_pdf, filenames, 20)
+        # filenames = filenames[226861:]
+        pool_code(html_to_pdf, filenames, 25)
         # remove_files(filenames)
         # html_to_pdf(["MDI.html"])
         print(datetime.datetime.utcnow())

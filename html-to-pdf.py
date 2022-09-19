@@ -86,21 +86,26 @@ def remove_image_tag_html(files):
 
 
 if __name__ == '__main__':
-    folders_list = [("/home/amir/Desktop/Only PDFs/enwiki-20220301-pages-articles-multistream10_html",
-                     "/home/amir/Desktop/Unused Data/enwiki-20220301-pages-articles-multistream10_html"), ]
-    for folder in folders_list:
-        # destination_folder = "/home/amir/Desktop/Only PDFs/enwiki-20220301-pages-articles-multistream14_html"
-        # parent_path = '/home/amir/Desktop/Unused Data/enwiki-20220301-pages-articles-multistream14_html'
-        destination_folder = folder[0]
-        parent_path = folder[1]
-        print(datetime.datetime.utcnow())
-        count = 1
-        filenames = next(
-            os.walk(parent_path), (None, None, [])
-        )[2]
-        filenames = filenames[260000:]
-        # filenames = filenames[130000:145000]
-        pool_code(html_to_pdf, filenames, 20)
-        # remove_files(filenames)
-        # html_to_pdf(["MDI.html"])
-        print(datetime.datetime.utcnow())
+    try:
+        folders_list = [
+            ("/home/umair/FinDe/Script_Data/PDFFolder",
+             "/home/umair/FinDe/Script_Data/enwiki-latest-pages-articles1_html"),
+                        ]
+        for folder in folders_list:
+            # destination_folder = "/home/amir/Desktop/Only PDFs/enwiki-20220301-pages-articles-multistream14_html"
+            # parent_path = '/home/amir/Desktop/Unused Data/enwiki-20220301-pages-articles-multistream14_html'
+            destination_folder = folder[0]
+            parent_path = folder[1]
+            print(datetime.datetime.utcnow())
+            count = 1
+            filenames = next(
+                os.walk(parent_path), (None, None, [])
+            )[2]
+            filenames = filenames[0:]
+            # filenames = filenames[130000:145000]
+            pool_code(html_to_pdf, filenames, 20)
+            # remove_files(filenames)
+            # html_to_pdf(["MDI.html"])
+            print(datetime.datetime.utcnow())
+    except Exception as e:
+        print(e)
